@@ -25,9 +25,6 @@ import jakarta.validation.Valid;
 @CrossOrigin
 public class BookController {
 	
-//	@Autowired
-//	private BookService bookService;
-	
 	private final BookService bookService;
 	
 	public BookController(BookService bookService) {
